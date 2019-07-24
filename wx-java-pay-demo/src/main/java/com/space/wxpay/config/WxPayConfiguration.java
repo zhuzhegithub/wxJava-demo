@@ -5,7 +5,6 @@ import com.github.binarywang.wxpay.service.WxPayService;
 import com.github.binarywang.wxpay.service.impl.WxPayServiceImpl;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 @EnableConfigurationProperties(WxPayProperties.class)
 public class WxPayConfiguration {
 
-    @Qualifier("wxPayProperties")
     @Autowired
     private WxPayProperties properties;
 
