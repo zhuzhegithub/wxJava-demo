@@ -1,2 +1,2 @@
-# wxJava-demo
-基于wxJava的demo
+# WxJava-demo
+基于WxJava的demo
