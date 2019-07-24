@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.web: info
+    com.github.binarywang.demo.wx.pay: debug
+    com.github.binarywang.wxpay: debug
+
+wx:
+  pay:
+    appId: 123v
+    mchId: 111
+    subAppId: 222
+    subMchId: 333
+    keyPath: 444
